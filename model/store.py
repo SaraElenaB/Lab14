@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 
-
 @dataclass
 class Store():
     store_id: int

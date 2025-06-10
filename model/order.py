@@ -20,4 +20,4 @@ class Order():
         return self.order_id == other.order_id
 
     def __str__(self):
-        return f"{self.order_id} - {self.store_id}"
+        return f"{self.order_id}"
